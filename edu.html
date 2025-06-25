@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<title>Education</title>
+<body>
+
+<style>
+ body {
+   background-color: #88584e;
+   #div1 {font-size: 55px;}
+}
+
+h1 {
+   font-size: 30px;
+   color: #d9a883;
+   text-decoration: underline;
+   font-family: verdana;
+}
+
+img {
+   width: 300px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   text-align: center;
+   object-fit: contain;
+   border: 3px solid #d9a883;
+   padding 0;
+   display: inline-block;
+   
+}
+
+.edu-image {
+   text-align: center;
+   padding: 35px;
+}
+
+
+.disclaimer {
+   padding: 50px;
+   text-align: center;
+   font-size: 12px;
+}
+}
+
+</style>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<div id="div1" class="fa"></div>
+
+<script>
+function smile() {
+  var a;
+  a = document.getElementById("div1");
+  a.innerHTML = "&#xf118;";
+  setTimeout(function () {
+      a.innerHTML = "&#xf11a;";
+    }, 1000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf119;";
+    }, 2000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf11a;";
+    }, 3000);
+}
+smile();
+setInterval(smile, 4000);
+
+</script>
+
+
+<h1><center>Education</h1></center>
+
+<div class="edu-image">
+  <a href="skkn.html">
+   <img src="skkn.jpg" alt="SK Kuala Nerang">
+  </a>
+
+  <a href="mmpt.html">
+   <img src="mmpt.png" alt="Maktab Mahmud Padang Terap">
+  </a>
+
+  <a href="uitm.html">
+   <img src="uitm.png" alt="UiTM Merbok, Kedah">
+  </a>
+</div>
+
+<p class="disclaimer">
+  &copy; 2025 Nur Syazwina Ibrahim. This website is best viewed using Google Chrome with a screen resolution of 1366x768. Last updated on June 23, 2025.
+</p>
+
+</body>
+</html>
